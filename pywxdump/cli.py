@@ -30,7 +30,7 @@ class MainBiasAddr():
         sb_bias_addr.add_argument("--name", type=str, help="微信昵称", metavar="", required=True)
         sb_bias_addr.add_argument("--account", type=str, help="微信账号", metavar="", required=True)
         sb_bias_addr.add_argument("--key", type=str, metavar="", help="(可选)密钥")
-        sb_bias_addr.add_argument("--db_path", type=str, metavar="", help="(可选)已登录账号的微信文件夹路径")
+        sb_bias_addr.add_argument("--db_path", type=str, metavar="", help="(可选)已登录账号的微信文件夹路径")you
         sb_bias_addr.add_argument("-vlp", '--version_list_path', type=str, metavar="",
                                   help="(可选)微信版本偏移文件路径,如有，则自动更新",
                                   default=None)

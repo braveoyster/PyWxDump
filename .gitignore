@@ -1,0 +1,10 @@
+*.bak
+decrypt_dbs/
+*~
+[._]*.un~
+.idea
+**/__pycache__
+bin/
+build/
+*.egg-info
+tests/dist/
